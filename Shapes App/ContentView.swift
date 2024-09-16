@@ -87,7 +87,7 @@ struct ContentView: View {
                             .fill(Color.white.opacity(0.8))
                             .frame(width: 100, height: 120, alignment: .center)
                             .overlay(
-                                Image(symbols[0])
+                                Image(symbols[numbers[0]])
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 80, height: 70, alignment: .center)
