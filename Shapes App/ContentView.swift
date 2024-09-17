@@ -173,7 +173,7 @@ struct ContentView: View {
                 case .success:
                     return Alert(title: Text("Yahhh!, you won!"), message: Text("You won the game"), dismissButton: .cancel())
                 case .failure:
-                    return Alert(title: Text("Oops, Better luck next time."), message: Text("You won the game"), dismissButton: .cancel())
+                    return Alert(title: Text("Oops, Better luck next time."), message: Text("You Lost the game"), dismissButton: .cancel())
                 default:
                     break
                 }
